@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    tools:context=".AddProducts">
+
+    <!--edit text to product category-->
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/idProductName"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Product Name" />
+
+    <EditText
+        android:id="@+id/idCategory"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_margin="10dp"
+        android:hint="Product Category" />
+
+    <EditText
+        android:id="@+id/idPrice"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:hint="Price" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idProductAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_margin="10dp"
+        android:hint="Product Availability" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/idBuyWhere"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_margin="10dp"
+        android:hint="Where to Buy" />
+
+    <!--button for adding new course-->
+
+    <!--new button for opening our course list activity-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_btn"
+        android:text="Create Post"
+        android:textAllCaps="false"
+        android:onClick="btn_Click"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_btn"
+        android:text="Update Post"
+        android:textAllCaps="false"
+        android:onClick="btn_Click"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/idBtnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_btn"
+        android:text="Delete Post"
+        android:textAllCaps="false"
+        android:onClick="btn_Click"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
+
